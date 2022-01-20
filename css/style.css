@@ -1,0 +1,67 @@
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    background-color: #151616;
+    font-family: Epilogue;
+    color: white;
+}
+
+h1 { 
+    background-color: #151616;
+    overflow:hidden;
+    display: inline-block; 
+    font-weight: bold;
+    font-family: arial;
+    color: transparent;
+    font-size: 8em;
+    text-align: center;
+    width: 100%;
+}
+span { 
+    background: url('../images/background-text.jpg') 0px 0px repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display:block;
+    transition: all .3s ease;
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    color: #26c6da;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1f95a5;
+    transition: all .2s ease-in-out;
+}
+
+.container-content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.illustration {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    max-width: 888px;
+}
+
+.container-footer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.heart {
+    margin-bottom: -5px;
+}

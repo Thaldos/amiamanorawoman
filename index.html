@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" media="all" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Epilogue">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+        <title>Am I a man or a woman?</title>
+    </head>
+    <body>
+        <div class="container-content">
+            <h1><span class="title">Am I a man or a woman?</span></h1>
+            <img class="illustration" src="images/am-i-a-man-or-a-woman.png" title="Am I a man or a woman?" alt="Am I a man or a woman?">
+        </div>
+        <div class="container-footer">
+            <p><a href="https://github.com/Thaldos/amiamanorawoman" title="Got to github.com/Thaldos/amiamanorawoman" target="_blank">Made</a> with <img class="heart" src="https://img.icons8.com/material/20/ec5f67/hearts.png"> by <a href="https://vincentgo.fr" title="Got to vincentgo.fr" target="_blank">Vincent Godé</a></p>
+            <p>Any data stored. This service is free, open source, without tracking and will be <a href="https://www.youtube.com/watch?v=2VSYmGSJtCA" title="Got to youtube.com/watch?v=2VSYmGSJtCA" target="_blank">forever and ever</a>.</p>
+        </div>
+    </body>
+    <script type="text/javascript">
+        var pos = 1; 
+
+        // Move the background :
+        function update() { 
+            $('.title').each(function() { 
+                var element = $(this);
+                var height = element.height()-18;
+                $(this).css('backgroundPosition', pos + 'px ' + pos + 'px'); 
+                pos = pos + 1;
+            }); 
+        };
+
+        $(window).bind('scroll', update);
+    </script>
+</html>
